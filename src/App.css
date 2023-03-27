@@ -1,0 +1,73 @@
+.mainContainer {
+  display: flex;
+  justify-content: center; 
+  width: 100%;
+  /*margin-top: 64px; */
+  background-color: #170239;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: times;
+  color: cyan;
+}
+
+.bio {
+  text-align: center;
+  color: yellow;
+  margin-top: 16px;
+  font-family: Georgia;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 10;
+  border-radius: 5px;
+  background-color: skyblue;
+  color: #170239;
+  font-family: Monaco;
+  font-weight: bold;
+}
+
+
+.userInputs{
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 2;
+  border-radius: 4px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #210f4d;
+  background: skyblue;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.comment{
+  text-align: center;
+  color: yellow;
+  margin-top: 8px;
+  font-family: Georgia;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.allText{
+  font-family: Georgia;
+  
+}
